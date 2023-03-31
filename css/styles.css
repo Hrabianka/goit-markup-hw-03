@@ -8,6 +8,7 @@
   --whiter-color: #f5f4fa;
   --silver-color: #757575;
   --portfolio-div-color: #eeeeee;
+  --border-bottom: #ececec;
 }
 
 body {
@@ -120,6 +121,8 @@ ul {
   top: 0px;
   display: flex;
   background: var(--white-color);
+  border-bottom-color: var(--border-bottom);
+  border-bottom-width: 1px;
 }
 
 .address-footer {
@@ -268,11 +271,11 @@ ul {
   background: var(--grey-color);
 }
 .portfolio-main-div {
-  position: absolute;
-  width: 572px;
   height: 54px;
   left: 510px;
   top: 174px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-button {
@@ -402,7 +405,7 @@ ul {
   position: absolute;
   width: 1170px;
   height: 1360px;
-  left: 215px;
+
   top: 174px;
 }
 
@@ -416,8 +419,8 @@ ul {
   top: 174px;
 }
 .li-images-portfolio {
-  display: block;
-  float: left;
+  height: 404px;
+  width: 370px;
 }
 
 .images-portfolio {
@@ -430,6 +433,7 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--silver-color);
+  padding-left: 24px;
 }
 
 .signature {
@@ -437,6 +441,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
 }
 
 .portfolio-div {
@@ -454,4 +459,23 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.signature-inside {
+  margin-bottom: 10px;
+  line-height: 1.19;
+}
+
+.ul-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.figure-image-portfolio {
+  padding: 0px;
+  margin: 0px;
 }
