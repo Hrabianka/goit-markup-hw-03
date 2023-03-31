@@ -17,6 +17,24 @@ body {
   font-weight: 500;
 }
 
+h1 {
+}
+h2 {
+}
+
+p {
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.container {
+  width: 1200px;
+  margin-left: 215px;
+}
+
 .logo {
   text-decoration: none;
   color: inherit;
@@ -100,7 +118,7 @@ body {
   height: 80px;
   left: 0px;
   top: 0px;
-
+  display: flex;
   background: var(--white-color);
 }
 
@@ -306,6 +324,21 @@ body {
   height: 101px;
   left: 215px;
   top: 774px;
+  display: flex;
+}
+.what-to-do-ul {
+  display: flex;
+  float: left;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.to-do-li {
+  margin: 0px 0px 0px 30px;
 }
 
 .what-to-do {
@@ -317,12 +350,15 @@ body {
 }
 
 .lorem-li {
-  display: block;
   float: left;
   width: 270px;
   height: 101px;
   left: 215px;
   top: 774px;
+}
+
+.lorem-li-margin {
+  margin: 0px 30px 0px 0px;
 }
 
 .lorem-p {
@@ -341,16 +377,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: inherit;
-}
-
-.to-do-li {
-  display: block;
-  float: left;
-  margin: 10px;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
 }
 
 .team-li {
