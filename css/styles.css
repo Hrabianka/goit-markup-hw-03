@@ -29,11 +29,6 @@ ul {
   padding: 0 15px;
 }
 
-.logo {
-  text-decoration: none;
-  color: inherit;
-  margin-top: 24px;
-}
 .index {
   text-decoration: none;
   color: inherit;
@@ -119,24 +114,26 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 46px;
-  margin-left: 93px;
-  margin-right: 364px;
-  margin-top: 32px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header-addres-li {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .address-footer {
-  left: 215px;
-  top: 111px;
   color: var(--white-color);
   font-size: 14px;
   margin-top: 20px;
+  padding-bottom: 60px;
 }
 
 .main-div {
@@ -188,10 +185,6 @@ ul {
 .main-footer {
   background: var(--grey-color);
   padding-top: 60px;
-
-  padding-bottom: 60px;
-  left: 0px;
-  top: 2097px;
 }
 
 .web {
@@ -217,10 +210,10 @@ ul {
 }
 
 .logo {
-  left: 215px;
-  top: 24px;
   font-family: 'Raleway', sans-serif;
-
+  text-decoration: none;
+  color: inherit;
+  padding-top: 24px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -266,10 +259,9 @@ ul {
 }
 
 .portfolio-main-div {
-  left: 510px;
-  top: 174px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .main-button {
@@ -292,14 +284,12 @@ ul {
 }
 
 .logo-footer {
-  left: 215px;
-  top: 60px;
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  padding-top: 60px;
 }
 
 .team {
@@ -366,9 +356,10 @@ ul {
   top: 174px;
 }
 
+/*
 .images-portfolio {
-  top: 262px;
-}
+  
+}*/
 
 .signature-second {
   font-weight: 400;
@@ -422,8 +413,10 @@ ul {
 .ul-portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 30px;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .figure-image-portfolio {
@@ -440,8 +433,12 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  padding: 0;
+  padding: 0px;
+  margin-top: 0px;
 }
 .navigation {
   display: flex;
+  padding-top: 32px;
+  margin-right: 371px;
+  margin-left: 93px;
 }
