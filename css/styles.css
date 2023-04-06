@@ -23,6 +23,11 @@ ul {
   padding: 0%;
 }
 
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -137,15 +142,10 @@ ul {
 }
 
 .main-div {
-  left: 0px;
-  /*width: 2000px;*/
-  margin-left: 0px;
-  margin-right: 0px;
   background: var(--grey-color);
 }
 
 .main-h1 {
-  /*top: 200px;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -157,8 +157,6 @@ ul {
   padding-top: 200px;
   padding-right: 237px;
 
-  /*padding-right: 452px;
-   padding: 200px 452px 0px 452px;*/
   color: var(--white-color);
 }
 
@@ -169,6 +167,7 @@ ul {
   font-size: 16px;
   padding: 10px 41px 10px 42px;
   margin-top: 30px;
+
   margin-left: 485px;
   margin-bottom: 200px;
 
@@ -201,7 +200,7 @@ ul {
 .what-to-do-h2 {
   font-size: 36px;
   line-height: 1.16;
-  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .team-h2 {
@@ -303,10 +302,12 @@ ul {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .what-to-do-ul {
   display: flex;
-  left: 215px;
+
   margin: 0px 0px 0px 0px;
 }
 
@@ -324,6 +325,8 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .lorem-h5 {
@@ -334,6 +337,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: inherit;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .team-list {
