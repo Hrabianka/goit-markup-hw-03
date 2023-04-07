@@ -113,6 +113,7 @@ h2 {
   background: var(--white-color);
   border-bottom-color: var(--border-bottom);
   border-bottom-width: 1px;
+  border-bottom-style: solid;
   padding: 24px 0px 25px 0px;
 }
 .header-flex {
@@ -351,7 +352,11 @@ h2 {
 /*
 .images-portfolio {
   
+
 }*/
+.img-portfolio {
+  display: block;
+}
 
 .signature-second {
   font-weight: 400;
