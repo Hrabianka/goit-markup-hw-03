@@ -110,13 +110,15 @@ h2 {
 }
 
 .main-header {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
   background: var(--white-color);
   border-bottom-color: var(--border-bottom);
   border-bottom-width: 1px;
   padding: 24px 0px 25px 0px;
+}
+.header-flex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -141,9 +143,8 @@ h2 {
 
 .main-div {
   background: var(--grey-color);
-
-  padding-right: 430px;
-  padding-left: 430px;
+  padding-right: 427px;
+  padding-left: 427px;
   padding-top: 200px;
 
   padding-bottom: 200px;
