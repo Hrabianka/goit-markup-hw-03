@@ -144,10 +144,7 @@ h2 {
 
 .main-div {
   background: var(--grey-color);
-  padding-right: 427px;
-  padding-left: 427px;
   padding-top: 200px;
-
   padding-bottom: 200px;
 }
 .main-flex {
@@ -164,7 +161,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  max-width: 696px;
   color: var(--white-color);
 }
 
